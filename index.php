@@ -1,9 +1,6 @@
  
 <?php
 
-print_r($_SERVER);
-print_r($_POST);
-print_r($_GET);
-print_r($_FILES);
+print("<html><img src='https://connect.mail.ru/oauth/authorize?client_id=783359&response_type=code&redirect_uri=https://afternoon-depths-59391.herokuapp.com/'/></html>");
 
 ?>
